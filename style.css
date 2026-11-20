@@ -1,0 +1,15 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; background: #f8f4ec; color: #302019; }
+body { margin: 0; }
+header, main, footer { padding-inline: max(1.25rem, calc((100% - 42rem) / 2)); }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; align-items: center; padding-block: 1.25rem; color: #fff7ec; background: #35231a; }
+header a { color: inherit; }
+.wordmark { font-family: Georgia, serif; letter-spacing: .24em; text-decoration: none; }
+nav { display: flex; gap: 1.1rem; }
+nav a[aria-current] { text-underline-offset: .3em; }
+main { padding-block: 2.7rem; }
+h1, h2 { font-family: Georgia, serif; font-weight: 500; line-height: 1.15; }
+h1 { margin: 0 0 1rem; font-size: clamp(2rem, 7vw, 3.3rem); }
+h2 { margin: 2rem 0 .5rem; font-size: 1.5rem; }
+p { margin: 0 0 1rem; line-height: 1.65; }
+a { color: #693c21; overflow-wrap: anywhere; }
+footer { padding-block: 1.25rem; border-top: 1px solid #d9cec0; }
